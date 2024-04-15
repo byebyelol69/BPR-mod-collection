@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D3DMenu>
+    <Locations>
+        <!-- You can edit the location name-->
+        <location name="Airfield">
+            <coordinates name="x">-1000.000000</coordinates>
+            <coordinates name="y">-1525.836800</coordinates>
+            <coordinates name="z">104.8260000</coordinates>
+        </location>
+        <location name="Quarry">
+            <coordinates name="x">-1910.000000</coordinates>
+            <coordinates name="y">719.9629000</coordinates>
+            <coordinates name="z">94.87560000</coordinates>
+        </location>
+        <location name="BSI">
+            <coordinates name="x">4446.770996</coordinates>
+            <coordinates name="y">-993.610840</coordinates>
+            <coordinates name="z">26.198526</coordinates>
+        </location>
+        <location name="Origin">
+            <coordinates name="x">20.000000</coordinates>
+            <coordinates name="y">4.000000</coordinates>
+            <coordinates name="z">5.320000</coordinates>
+        </location>
+    </Locations>
+    <Colors>
+        <!-- You can edit the color name-->
+        <color name="Color 0" type="Gloss">1</color>
+    </Colors>
+    <Vehicles>
+        <!-- You can edit the displayname-->
+        <vehicle displayname="Dust Storm">
+            <name>P_DLC_DirtKing_01 Finish 1</name>
+            <wheel>TruckRacingWheel_01</wheel>
+            <color type="Pearlescent">5</color>
+            <boost type="Locked"/>
+        </vehicle>
+        <vehicle displayname="ASR Locked">
+            <name>P_BTT_ExtremeAnnihilator_01 Finish 1</name>
+            <wheel>8Spoke_02_20_650_test</wheel>
+            <color type="Gloss">2</color>
+            <boost type="Locked"/>
+        </vehicle>
+    </Vehicles>
+    <Wheels>
+        <wheel name="10spoke_05_20_650"/>
+    </Wheels>
+    <Settings>
+        <Keys>
+            <key name="Up">VK_UP</key>
+            <key name="Down">VK_DOWN</key>
+            <key name="Left">VK_LEFT</key>
+            <key name="Right">VK_RIGHT</key>
+            <key name="Enter">VK_RETURN</key>
+            <key name="Show_Hide_Menu">VK_INSERT</key>
+            <key name="Increase_Step">VK_SHIFT</key>
+            <key name="Save">VK_CONTROL + VK_F1</key>
+            <key name="Save_Local">VK_CONTROL + VK_KEY_S + VK_KEY_L</key>
+            <key name="Save_Color">VK_CONTROL + VK_KEY_S + VK_KEY_C</key>
+            <key name="Save_Vehicle">VK_CONTROL + VK_KEY_S + VK_KEY_V</key>
+            <key name="Save_Wheel">VK_CONTROL + VK_KEY_S + VK_KEY_W</key>
+            <key name="Reload_Config">VK_CONTROL + VK_SHIFT + VK_F5</key>
+        </Keys>
+        <Options>
+            <!-- Color: dec, hex | Speed: mph, km/h, m/s-->
+            <option name="Color">dec</option>
+            <option name="Speed">mph</option>
+        </Options>
+    </Settings>
+</D3DMenu>
