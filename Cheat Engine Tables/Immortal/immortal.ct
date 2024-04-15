@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="29">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>25</ID>
+      <Description>"Immortal (num 3 on\off)"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+BurnoutPR.exe+595E63:
+movss [esi+000007F4],xmm2
+
+[DISABLE]
+BurnoutPR.exe+595E63:
+movss [esi+000007F4],xmm0
+</AssemblerScript>
+      <Hotkeys>
+        <Hotkey>
+          <Action>Toggle Activation</Action>
+          <Keys>
+            <Key>99</Key>
+          </Keys>
+          <ID>0</ID>
+        </Hotkey>
+      </Hotkeys>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <Comments>+7f4
++78
++7c0
++78
+</Comments>
+</CheatTable>

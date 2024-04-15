@@ -1,0 +1,67 @@
+Описание:
+
+    I2CETState
+    Saves and loads table state (i.e.: what memory records are enabled).
+    Uses named states (i.e.: 'default', 'testState', or 'SuperCheated'), if no name is given then 'default' is used.
+        Save Table State : Default
+        Save Table State : Casual
+        Save Table State : Full
+        Save Table State : Test
+        Load Table State : Default
+        Load Table State : Casual
+        Load Table State : Full
+        Load Table State : Test
+    I2CETeleporter
+        Teleport: Back
+        Save Location (saves location to local file)
+        Helpers
+            Generate Memory Records (helper script for generating "teleport to save" scripts from saves)
+            Zero Camera Rotation Angle
+            Write Saves To File
+            Print Saves
+            Rename Save
+            Read From File
+            Delete Save
+    Time Hook
+        Sync with Real Time - Синхронизация с реальным временем
+        Time Scale Hook - Крючок шкалы времени
+        Timer Scale Hook - Таймер шкала крюк
+        Stunt Run End Timer Scale Hook - Крючок с таймером
+        Road Rules Timer Scale Hook - Правила дорожного таймера
+        Time Setters - Сеттеры времени
+        Time Display - Отображение времени
+    Delta Multiplier Hook - Крюк для умножения Delta
+    Velocity Multiplier - Множитель скорости
+    Boost Dec. Hook - Буст Dec.
+    Boost Inc. Hook - Буст Inc.
+    Boost Fill At Junkyard -  Буст Fill
+    Stunt Run Score Multiplier - Множитель баллов Stunt Run
+    Road Rage Takedown Multiplier - Множитель разбитой дороги
+    Show Time Multiplier - Показать множитель времени
+    Distance Oncoming Multiplier - Множитель встречного расстояния
+    Distance Oncoming No Reset - Дистанция встречного сброса нет
+    Distance Drifting Multiplier - Дистанционный Множитель
+    Distance Drifting No Reset - Дрейф Расстояние без сброса
+    Distance Wheelie Multiplier - Расстояние Множитель
+    Distance Wheelie No Reset - Расстояние Wheelie Нет Сброс
+
+General Helper Scripts:
+
+    Fill Boost - 
+
+Other Features:
+
+    Auto Table Updater
+    Auto Attach to process
+    Simple Logger (with levels)
+    Debug Section:
+        Helpers:
+            Print Game Module Info
+            Print Game Module Version
+            Enable Compact Mode
+            Disable Compact Mode
+            Set Logger Level : WARN (Default)
+            Set Logger Level : INFO
+            Set Logger Level : DEBUG
+            Set Logger Level : TRACE
+        All hooks have their own section, check scripts for real hook names.
